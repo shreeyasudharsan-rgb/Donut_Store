@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: Ranchers;
+    color:gray;
+    background-color: lightpink;
+}
+p{
+    text-align: center;
+    font-family: Unkempt;
+}
+.up{
+    color:lightgray;
+}
+@font-face {
+    font-family:Ranchers ;
+    src: url(Ranchers-Regular.ttf);
+}
+@font-face {
+    font-family: Unkempt;
+    src: url(Unkempt-Regular.ttf);
+}
+.img1{
+    text-align: center;
+    padding:2%;
+    border-style:double;
+    border-color: lightskyblue;
+    margin:5%;
+    color:lightskyblue;
+}
+.img2{
+    text-align: center;
+    padding:2%;
+    border-style:double;
+    border-color: lightcoral;
+    margin:5%;
+    color:lightcoral;
+}
+.img3{
+    text-align: center;
+    padding:2%;
+    border-style:double;
+    border-color: lightgreen;
+    margin:5%;
+    color:lightgreen;
+}
+body{
+    background-image: url(darkness_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:2%
+}
