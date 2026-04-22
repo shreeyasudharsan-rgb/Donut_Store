@@ -7,10 +7,15 @@ h1{
 p{
     text-align: center;
     font-family: Unkempt;
+    font-size: larger;
 }
+
+/*Font color for first paragraph*/
 .up{
     color:lightgray;
 }
+
+/*fonts for heading and paragraphs*/
 @font-face {
     font-family:Ranchers ;
     src: url(Ranchers-Regular.ttf);
@@ -19,30 +24,42 @@ p{
     font-family: Unkempt;
     src: url(Unkempt-Regular.ttf);
 }
+
+/*Stacked donuts */
 .img1{
     text-align: center;
-    padding:2%;
+    padding:4%;
     border-style:double;
     border-color: lightskyblue;
-    margin:5%;
     color:lightskyblue;
+    display:table;
+    margin:auto;
+    margin-top: 6%;
 }
 .img2{
     text-align: center;
-    padding:2%;
+    padding:4%;
     border-style:double;
     border-color: lightcoral;
-    margin:5%;
     color:lightcoral;
+    display:table;
+    margin:auto;
+    margin-top: 6%;
 }
+
+/*The brainrot section styleing*/
 .img3{
     text-align: center;
-    padding:2%;
+    padding:4%;
     border-style:double;
     border-color: lightgreen;
-    margin:5%;
     color:lightgreen;
+    display:table;
+    margin:auto;
+    margin-top: 6%;
 }
+
+/*The background of the homepage*/
 body{
     background-image: url(darkness_background.jpg);
     background-repeat: no-repeat;
