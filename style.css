@@ -3,6 +3,8 @@ h1{
     font-family: Ranchers;
     color:gray;
     background-color: lightpink;
+    margin:auto;
+    
 }
 p{
     text-align: center;
@@ -13,6 +15,11 @@ p{
 /*Font color for first paragraph*/
 .up{
     color:lightgray;
+    background-color: black;
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
+    padding:5%
 }
 
 /*fonts for heading and paragraphs*/
@@ -66,5 +73,30 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin:2%
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    display:flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content:center;
+}
+ul li a{
+    display:block;
+    color:rgb(37, 37, 37);
+    padding:14px 16px;
+    text-align: center;
+    font-family: Unkempt;
+    font-size: larger;
+    text-decoration: none;
+
+}
+ul li a:hover{
+    background-color:black;
+    color:rgb(209, 209, 209);
 }
