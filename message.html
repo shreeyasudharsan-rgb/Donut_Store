@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navagation bar-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="message.html">Messages</a></li>
+    </ul>
+    <!--End of Nav Bar-->
+    <h1>Send A Message</h1>
+    <br>
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+       
+        <button type="submit">Send</button>
+    </form>
+       
+       <p id="response" class="up"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
